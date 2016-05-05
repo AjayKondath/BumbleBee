@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x.icon" />
+<link rel="stylesheet" href="../css/main.css" type="text/css" />
+<link rel="stylesheet" href="../css/contact.css" type="text/css" />
+<title>Bumble Bee -the web transformers</title>
+</head>
+<body>
+<!--Wrapper -->
+<div id="wrapper">
+  <header>
+    <div class="header_left">
+  <a href="../index.html"><img src="../images/header.gif" alt= "logo bumblebee" width="940" height="123" usemap="#Map" ></a> 
+      <map name="Map">
+    <area shape="rect" coords="4,22,275,121" href="../index.html" alt="bumblebee logo">
+     <area shape="rect" coords="764,67,813,114" href="https://www.facebook.com/pages/Bumblebee-Web-Transformers/370484679786272?fref=photo"  target="_blank" alt="bumblebee facebook">
+     <area shape="rect" coords="824,68,871,120" href="https://twitter.com/Bumblebeewt"  target="_blank" alt="bumblebee twitter">
+     <area shape="rect" coords="895,73,937,114" href="https://www.linkedin.com/profile/view?id=387203316&trk=nav_responsive_tab_profile"  target="_blank" alt="bumblebee limkedin">
+   </map> 
+      
+    </div>
+      
+  
+    <br class="clear" />
+  </header>
+
+<!--Wrapper1 class  -->
+<div class="wrapper1">
+<!--topnav class  -->
+  <div class="topnav">
+  <!--nav  -->
+    <nav>
+      <ul>
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a href="../index.html">About Us</a></li>
+        <li><a href="../index.html">Services</a></li>
+        <li><a href="potfolio.html">Portfolio</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        
+       
+      </ul>
+  </nav>
+  
+    <br class="clear" />
+  </div>
+</div>
+<!--main class -->
+<div class="main">
+
+<!--section2 class  -->
+ 
+    <div class="section2">
+        
+
+    <p class="thanks"> Thanks for your interest in our services.Please fill in the form below and submit it.We will get back to you soon</p>
+   <form name="myform1" action= "" method="get"  onSubmit="return validateForm();">
+<fieldset>
+<legend>Contact Us</legend>
+
+  <label for="name" >Name</label>
+  <input type="text" id="name"   autofocus="autofocus"  required="required"  placeholder="name" ><span id="name_validation" class="error">
+                  </span><br/>   
+ 
+                
+
+<label for="email"  >Email</label>
+    <input type="text" id="email" placeholder="email"  required="required" autofocus> <span  id="email_validation" class="error" ></span><br />
+            <label for="comments" >Comments</label>
+            <textarea name="comment" id="message" placeholder="message or comments"  required="required" ></textarea><span id="message_validation" class="error"></span><br>
+
+      </fieldset> 
+ 
+                  <input type ="submit" value="Submit" name="Submit"  id="register" class="submit" >
+
+  
+       </form>                                
+                                        	
+                                	
+                                       
+                                       
+    
+    </div> 
+
+<div class="section3"> <!--section lacks heading-->
+      <iframe   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2883.1428612960276!2d-79.607995!3d43.728359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3a54839e583f%3A0xdadd88718b1895d7!2sHumber+North+Campus!5e0!3m2!1sen!2sca!4v1415567587943"  width="920" height="140"  style="border:0"></iframe>     
+   
+  </div>
+</div>
+
+
+
+
+<div class="wrapper2">
+  <div class="thumbnails">
+   <ul>
+     <li>
+        <h2>Web Designing & Development</h2>
+        <p class="imgholder"><img src="../images/thumbnails/wds.gif" width="290" height="100" alt="web designing"></p>
+        <p> Our strong design is well respected,  sets you apart from your competitors.. <a href="webdesign.html">More &raquo;</a></p>
+      </li>
+      <li>
+        <h2>Graphic Designing</h2>
+        <p class="imgholder"><img src="../images/thumbnails/Graphicdesign.gif" width="290" height="100" alt="grahic designing"></p>
+        <p> We keep it simple because we know it works.We’ll bring to life your ideas ..<a href="graphicdesign.html">More &raquo;</a></p>
+      </li>
+      <li class="last">
+        <h2>Internet Marketing</h2>
+        <p class="imgholder"><img src="../images/thumbnails/ims.gif" width="290" height="100" alt="internet marketing"></p>
+        <p>The Internet has the powerful
+capacity to bring you more
+business. Lets help you.. <a href="internetmarketing.html">More &raquo;</a></p>
+      </li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<!-- footer -->
+
+   <footer>
+   <img src="../images/footer2.jpg" alt="address" width="940" height="100" usemap="#Map2">
+   <map name="Map2">
+     <area shape="rect" coords="418,23,524,91" href="https://maps.google.ca/maps?q=http:%2F%2Fwww.humber.ca%2F&t=m&z=4" alt="maps" target="_blank" >
+   </map>
+  </footer>
+
+
+</div>
+</body>
+<script type="text/javascript">
+
+	function validateForm() {
+  var valid = 1;
+  var email = document.getElementById('email');
+  var email_validation = document.getElementById("email_validation");
+  var name = document.getElementById('name');
+  var name_validation = document.getElementById("name_validation");
+  var message_validation = document.getElementById("message_validation");
+  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  
+  if (name.value === "") {
+    valid = 0;
+    name_validation.innerHTML = "Name Required";
+    name_validation.style.display = "inline";
+   
+  } else {
+    name_validation.style.display = "none";
+    
+  }
+  
+  if (message.value === "") {
+    valid = 0;
+    message_validation.innerHTML = "Field Required";
+    message_validation.style.display = "inline";
+   
+  } else {
+    message_validation.style.display = "none";
+    
+  }
+  
+  if (email.value === "") {
+    valid = 0;
+    email_validation.innerHTML = "Email Required";
+    email_validation.style.display = "inline";
+    
+  } else {
+    email_validation.style.display = "none";
+    
+  }
+  
+  if(!filter.test(email.value)) {
+    valid = 0;
+    email_validation.innerHTML = "Invalid email address";
+    email_validation.style.display = "inline";
+    
+  } else {
+    email_validation.style.display = "none";
+    
+  }
+  if (!valid)
+    return false;
+}
+
+
+
+    
+</script>
+
+</html>

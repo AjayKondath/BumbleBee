@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+form{
+	width:900px;
+	margin-top:30px;
+	color:#666666;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.3em;
+	
+		
+
+	
+}
+label{
+	margin-left:10px;
+	text-align:right;
+	width:120px;
+	float:left;}
+	
+
+input{
+	margin-left:20px;
+	margin-bottom:10px;
+         width:220px;
+	 height:25px;
+	text-align:center;
+}
+	
+
+fieldset{
+		color:#C00;
+		font-family:Tahoma, Geneva, sans-serif;
+		background-color:#F7F7F7;
+		padding:10px;	
+		
+	}
+
+
+textarea{
+		height:80px;
+		width:300px;
+		float:right;
+		margin-right:430px;
+		margin-left:10px;
+		text-align:center;
+		
+		
+	}
+	
+.submit{
+         margin:0 ;
+	padding:4px;
+	color:#C00;
+	background-color:#F7F7F7;
+	border:2px solid #CCCCCC;
+	cursor:pointer;
+	font-size:1.1em;
+	height:30px;
+	text-shadow:#900;
+	text-align:center;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px #888888;
+	}
+.thanks{
+font-size:1.4em;
+font-family:"Arial Black", Gadget, sans-serif;	
+	
+	
+	
+}
+.spam_prevention { display: none; }
+#email_validation, #name_validation,#message_validation {
+    display:none;
+}
+
+label.required:after {
+  content:'*';
+  color:red;
+}
+
+span.error {
+  background-color:#FFDFDF;
+  color:red;
+  font-size:0.95em;
+
+}
